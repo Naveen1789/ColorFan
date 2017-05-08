@@ -1,0 +1,61 @@
+div img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  width: 125px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #5DADE2;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#slower {
+  background-color: #1F618D;
+}
+
+#slow {
+  background-color: #5DADE2;
+}
+
+#steady {
+  background-color: #58D68D;
+}
+
+#fast {
+  background-color: #DC143C;
+}
+
+#faster {
+  background-color: #FF0000;
+}
+
+#rotate {
+  background-color: #008000;
+}
+
+#rest {
+  background-color: #FFD700;
+}
+
+#reset {
+  background-color: #C0C0C0;
+}
